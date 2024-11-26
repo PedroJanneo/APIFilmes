@@ -1,0 +1,161 @@
+body{
+  background: linear-gradient(#0C79F5, #074387, #03304A);
+}
+
+/* foto fixa */
+#inicial{
+  background-image: url('../img/imagemFundo.png');
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 40px; /* Adiciona espaço abaixo da seção inicial */
+}
+
+/* Define um fundo claro para a seção e aplica margem */
+#crud {
+  background-color: #f4f7fb;
+  padding: 50px;
+  border-radius: 55px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px; /* Adiciona espaço acima da seção CRUD */
+}
+
+/* Estiliza os rótulos para ficarem mais chamativos */
+#crud label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+  display: block;
+  margin-top: 15px;
+}
+
+/* Adiciona um estilo ao contêiner de inputs */
+#crud input, textarea{
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 1.1em;
+  border: solid 1px #c1c1c1;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50; /* Cor de fundo verde */
+  color: white; /* Texto branco */
+  padding: 12px 20px; /* Espaçamento interno */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor de pointer para indicar que é clicável */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+  margin-top: 20px; /* Espaçamento superior */
+  width: 100%; /* Largura 100% para o botão ocupar toda a largura */
+}
+
+/* Efeito ao passar o mouse (hover) */
+button:hover {
+  background-color: #007206; /* Tom mais escuro de verde */
+  transform: scale(1.05); /* Leve aumento de tamanho */
+}
+
+/* Card de filmes */
+#cards{
+  width: 1200px;
+  height: auto;
+  min-height: 200px;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding-top: 0px;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 10px;
+  box-shadow: 10px 10px 50px #000000;
+  margin-bottom: 40px; /* Espaço abaixo do card */
+}
+
+footer{
+  background-color: #000;
+  color: #fff;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/* Lista de filmes */
+#listFilmes {
+  width: 1200px;
+  height: auto;
+  min-height: 200px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  box-shadow: 10px 10px 50px #000000;
+  margin-top: 100px; /* Adicionando espaçamento no topo da seção */
+}
+
+#listFilmes h1 {
+  padding-top: 20px;
+  width: 99%;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 80px;
+  text-align: center;
+  background-color: #074387;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 50px;
+}
+
+#listFilmes .linha {
+  width: 99%;
+  height: 40px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.titulo {
+  width: 30%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2em;
+  padding-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #020202;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+#listFilmes .linha div {
+  width: 30%;
+  margin-right: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dados div {
+  width: 50px;
+  background-color: #074387; /* Cor alterada para o tom solicitado */
+  box-sizing: border-box;
+  margin-right: 5px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.dados img {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.dados img:hover {
+  cursor: pointer;
+}
